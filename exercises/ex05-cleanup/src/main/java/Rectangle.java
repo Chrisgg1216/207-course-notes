@@ -20,10 +20,7 @@ public class Rectangle {
       height = height * factor;
     }
 
-    public boolean isLargerThan(Rectangle other){
-        if(area() > other.area())
-            return true;
-        else
-            return false;
+    public boolean isLargerThan(Rectangle other) {
+        return area() > other.area();
     }
 }
